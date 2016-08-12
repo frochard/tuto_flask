@@ -1,22 +1,7 @@
 {% extends "index.html" %}
 
 {% block corps %}
-<div class="col-xs-4">
-<h1> working copies</h1>
-<ul class="list-group">
-{% for wc in working_copies %}
-    <li class="list-group-item">{{ wc }}</li>
-{% endfor %}
-</ul>
-</div>
-<div class="col-xs-4">
-<h1>Projects</h1>
-<ul class="list-group">
-{% for p in projects %}
-    <li class="list-group-item">{{ p }}</li>
-{% endfor %}
-</ul>
-</div>
+<h1>Working copies</h1>
 {% endblock %}
 
 
